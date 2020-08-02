@@ -1,4 +1,4 @@
-# vue-crashcourse
+A well ToDo App in Vue.js
 
 ## Project setup
 ```
