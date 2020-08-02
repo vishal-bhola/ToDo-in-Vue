@@ -6,18 +6,18 @@
 </template>
 
 <script>
-import TodoList from './components/TodoList';
+import TodoList from "./components/TodoList.vue";
 export default {
-  name:"App",
+  name: "App",
   components: {
-    TodoList
-  }
-}
+    TodoList,
+  },
+};
 </script>
 
 <style>
-  body{
-    background-color: rgb(66,66,66);
-    color: aliceblue
-  }
+body {
+  background-color: rgb(66, 66, 66);
+  color: aliceblue;
+}
 </style>
