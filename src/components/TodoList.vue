@@ -6,7 +6,9 @@
       </div>
     </div>
     <div class="row">
-      <p>Add Create form</p>
+      <div class="col-12 col-lg-6">
+        <NewTodo @on-addtodo="addTodo($event)" />
+      </div>
     </div>
     <div class="row">
       <div class="col-12 col-lg-6">
@@ -28,9 +30,12 @@
 
 <script>
 import Todo from "./Todo";
+import NewTodo from "./NewTodo";
+
 export default {
   components: {
     Todo,
+    NewTodo,
   },
   data() {
     return {
